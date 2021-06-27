@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/sregistro.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/devolucion.css">
+    <script src="script2.js"></script>
     <title>Biblioteca Virtual DISAB</title>
 </head>
 <header>
@@ -23,20 +23,19 @@
     <body background="img/back_image.png">
  <center>
 <section class="Form-registrar">
-          <a href="registro.html"><button class="botons1">Ingreso</button></a>
-          <a href="devolucion.html"><button class="botons1">Devolucion</button></a>
-          <h4 class="titulo">Informacion del Estudiante</h4>
-     <form action="gracias.html">
-           <input Class="control" type="text" name="Estudiante" id="estudiante" placeholder="Nombre del estudiante">  
-           <input Class="control" type="text" name="Curso" id="curso" placeholder="Curso">
-           <input Class="control" type="number" name="Numero" id="numregistro" placeholder="Numero De Registro">      
-     <h4 class="titulo">Informacion Del Libro</h4>
+    <a href="registro.html"><button class="botons1">Ingreso</button></a>
+    <a href="devolucion.html"><button class="botons1">Devolucion</button></a>
+    <h4 class="titulo">Informacion Del Libro</h4>
+    <form action="gracias.html">
+          <input Class="control" type="text" name="Codigo" id="codigo" placeholder="Codigo del Libro">
           <input Class="control" type="text" name="Titulo" id="titulo" placeholder="Titulo">
-          <input Class="control" type="text" name="Autor" id="autor" placeholder="Autor">
           <input Class="control" type="email" name="Estante" id="estante" placeholder="Estante">
-          <input Class="control" type="datetime-local" name="Despacho" id="despacho" placeholder="Fecha De Despacho">
+          <input Class="control" type="text" name="Autor" id="autor" placeholder="Autor">
+          <input Class="control" type="text" name="Devuelto" id="devuelto" placeholder="Devuelto Por...">
+          <input Class="control" type="text" name="Curso" id="curso" placeholder="Curso">
+          <input Class="control" type="text" name="Registro" id="registro" placeholder="N. Registro">
           <input class="control" type="datetime-local"name="Entrega" id="entrega" placeholder="Fecha De Entrega">
-          <input class="botons3" type="submit" value="Enviar">
+          <input class="botons3" type="submit" value="Devolver">
         </form>
           <input class="botons4" type="reset" value="Borrar" onclick="Limpiar()">
     </section>    
